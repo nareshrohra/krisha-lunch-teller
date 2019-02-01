@@ -1,0 +1,11 @@
+{
+  "name": "alexa-skill-krisha-lunch",
+  "version": "1.0.0",
+  "description": "Alexa skill for telling Krisha's lunch",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "alexa-sdk": "^1.0.0"
+  }
+}

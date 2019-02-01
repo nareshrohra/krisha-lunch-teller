@@ -1,0 +1,47 @@
+{
+  "skillManifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Lunch teller for Krisha",
+          "examplePhrases": [
+            "Alexa what's Krisha's lunch for today",
+            "Alexa What's Krisha's lunch for tomorrow",
+            "Alexa Krisha's lunch"
+          ],
+          "keywords": [
+            "Krisha",
+            "lunch",
+            "TreeHouse"
+          ],
+          "name": "Krisha Lunch Teller",
+          "smallIconUri": "https://api.amazonalexa.com/v0/skills/amzn1.ask.skill.484b5901-0556-4d93-9f4f-f8dc2fd013c5/images/eyJkIjoiMTRyanp4ZEExenNFODhEdU1QM201dmNnMjJJM1NudGtqVW9DcVhJK3U2YjkyTExNUldHUWtocFoxWFJ2MVJKVjBBYytpeExYVWRycnV3QTNNLzF5M0NBeFZZalRPZThFK3dFNllzSTUrRUhRRFdaSkJMNTNmcW5DOEY0RkM5ODgiLCJpdiI6IllLQUZmNkdVR1BDclc0bkViZVVrZmc9PSIsInYiOjF9",
+          "description": "TreeHouse school has specific lunch menu for each day, each week. This school will assist in telling what's the lunch menu for today/tomorrow",
+          "largeIconUri": "https://api.amazonalexa.com/v0/skills/amzn1.ask.skill.484b5901-0556-4d93-9f4f-f8dc2fd013c5/images/eyJkIjoibmlUUHlaT2MxaHRFRm9HTXlXMWZqeDZrbm00M05QMDVQeW5xOW05eVczNWU3UDhlVGVlbnFITWdlYnlzZE0xUUdrbHJLeXZUWGpKMjh4LzJmM2U4SHlEdmRTaHpsRngyMENMU2sxZjcwMVhqejdHN2IrazYwMjQ3NDE0T2R3K0NuU2dHL0ZMS0xPNlArMjhTdkI5UGhnPT0iLCJpdiI6IkpiYTFrYkFMVkN3WGp5T3FaaXM1NkE9PSIsInYiOjF9"
+        }
+      },
+      "isAvailableWorldwide": false,
+      "testingInstructions": "This skill doesn't require any special hardware",
+      "category": "ORGANIZERS_AND_ASSISTANTS",
+      "distributionCountries": [
+        "IN"
+      ],
+      "distributionMode": "PRIVATE"
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:125806942707:function:KrishaLunchTeller"
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "isExportCompliant": true,
+      "containsAds": false,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}
